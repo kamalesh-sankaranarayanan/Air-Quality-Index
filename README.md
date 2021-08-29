@@ -9,5 +9,5 @@ Air Quality Index prediction using Random forest model and Streamlit
 
 
 # Code and Resources user
-Pythoon Version: 3.8 \n
+Pythoon Version: 3.8 \
 Packages: pandas, numpy, requests, beautifulsoup, sklearn, matplotlib, seaborn,  pickle
