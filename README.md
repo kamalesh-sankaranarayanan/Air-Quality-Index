@@ -35,3 +35,5 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 # EDA
 I looked at the distribution of data and below are the few highlights: \
 ![Alt Text](https://github.com/Harishkumar215/Air-Quality-Index/blob/main/Images/Figure%202021-08-28%20182406.png)
+![Alt Text](https://github.com/Harishkumar215/Air-Quality-Index/blob/main/Images/Figure%202021-08-28%20182425.png)
+![Alt Text](https://github.com/Harishkumar215/Air-Quality-Index/blob/main/Images/Figure%202021-08-28%20183150.png)
