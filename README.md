@@ -4,7 +4,7 @@ Air Quality Index prediction using Random forest model and Streamlit
 
 * Created a tool that predicts air quality index (Particulate Matter 2.5 (PM2.5))
 * Scraped historical data from https://en.tutiempo.net/ and https://openweathermap.org/api/air-pollution using Requests and BeautifulSoup
-*  Optimized Linear, LASSO, Ridge, Random forest regressors using GirdSearchCV and RandomizedSearchCV to reach the best model
+*  Optimized Linear, LASSO, Random forest regressors using GirdSearchCV and RandomizedSearchCV to reach the best model
 *  Built a client app using Streamlit
 
 
@@ -46,9 +46,16 @@ I tired different models and evaluated them using Mean Absolute Error (MAE)
 I tried following models:
 
 * Linear Regression - Baseline for the model
-* LASSO and Ridge regression - I thought normalized regression would be effective
+* LASSO regression - I thought normalized regression would be effective
 * Random Forest - Because of sparsity associated with data, I thought that this would be good fit
 
 # Model Performance
+Random Forest model performed better than other models on the test and validation sets
 
+* Random Forest: MAE = 25.2
+* Linear Regression: MAE = 44.9
+* LASSO: MAE = 44.5
+
+# Production
+Built a Streamlit API endpoint that was hosted on the local web server, API endpoint takes in requset with list of values and return estimated PM 2.5 value
 
