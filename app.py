@@ -15,18 +15,17 @@ st.write("""Air Quality Index Prediction App""")
 
 st.sidebar.header('User Input Features')
 
-T = st.sidebar.number_input("Average annual temperature (T)")
-TM = st.sidebar.number_input("Annual average maximum temperature (TM)")
-Tm = st.sidebar.number_input("Average annual minimum temperature (Tm)")
-SLP = st.sidebar.number_input("Rain or snow precipitation total annual (SLP)")
-H = st.sidebar.number_input("Number of days with hail (H)")
-VV = st.sidebar.number_input("Number of days with rain (VV)")
-V = st.sidebar.number_input("Annual average wind speed (V)")
-VM = st.sidebar.number_input("Number of days with storm (VM)")
+T = st.sidebar.number_input("Average Temperature in °C (T)")
+TM = st.sidebar.number_input("Maximum temperature in °C (TM)")
+Tm = st.sidebar.number_input("Minimum temperature in °C (Tm)")
+SLP = st.sidebar.number_input("Atmospheric pressure at sea level in hPa (SLP)")
+H = st.sidebar.number_input("Average relative humidity in % (H)")
+VV = st.sidebar.number_input("Average visibility in Km (VV)")
+V = st.sidebar.number_input("Average wind speed in Km/h (V)")
+VM = st.sidebar.number_input("Maximum sustained wind speed in Km/h (VM)")
 
 test = pd.DataFrame([T, TM, Tm, SLP, H, VV, V, VM]).T
 test.columns =['T', 'TM', 'Tm', 'SLP', 'H', 'VV', 'V', 'VM']
-
 
 st.table(test)
 
