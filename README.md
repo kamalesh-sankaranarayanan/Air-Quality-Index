@@ -37,3 +37,18 @@ I looked at the distribution of data and below are the few highlights: \
 ![Alt Text](https://github.com/Harishkumar215/Air-Quality-Index/blob/main/Images/Figure%202021-08-28%20182406.png)
 ![Alt Text](https://github.com/Harishkumar215/Air-Quality-Index/blob/main/Images/Figure%202021-08-28%20182425.png)
 ![Alt Text](https://github.com/Harishkumar215/Air-Quality-Index/blob/main/Images/Figure%202021-08-28%20183150.png)
+
+# Model Building
+I split the data into train and tests sets with test size of 30%
+
+I tired different models and evaluated them using Mean Absolute Error (MAE)
+
+I tried following models:
+
+* Linear Regression - Baseline for the model
+* LASSO and Ridge regression - I thought normalized regression would be effective
+* Random Forest - Because of sparsity associated with data, I thought that this would be good fit
+
+# Model Performance
+
+
