@@ -15,13 +15,13 @@ Packages: pandas, numpy, requests, beautifulsoup, sklearn, matplotlib, seaborn, 
 # Web Scraping
 Used Requests package to scrape historical records from 2013 to 2018 form https://en.tutiempo.net/ and used BeautifulSoup to clean the data to get the following: \
 
-*T - Average Temperature (°C)
-*TM	- Maximum temperature (°C)
-*Tm	- Minimum temperature (°C)
-*SLP - Atmospheric pressure at sea level (hPa)
-*H - Average relative humidity (%)
-*VV	- Average visibility (Km)
-*V - Average wind speed (Km/h)
-*VM	- Maximum sustained wind speed (Km/h)
-*PM 2.5 - Particulate matter 2.5 (PM2.5)
+* T - Average Temperature (°C)
+* TM	- Maximum temperature (°C)
+* Tm	- Minimum temperature (°C)
+* SLP - Atmospheric pressure at sea level (hPa)
+* H - Average relative humidity (%)
+* VV	- Average visibility (Km)
+* V - Average wind speed (Km/h)
+* VM	- Maximum sustained wind speed (Km/h)
+* PM 2.5 - Particulate matter 2.5 (PM2.5)
 
