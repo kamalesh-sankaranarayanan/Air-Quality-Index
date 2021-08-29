@@ -33,5 +33,5 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 * Parsed numeric data for all columns
 
 # EDA
-I looked at the distribution of data and below are the few highlights
-![Alt Text](/Images/Figure 2021-08-28 182406.png)
+I looked at the distribution of data and below are the few highlights: \
+![Alt Text](Figure 2021-08-28 182406.png)
