@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 def avg_data_2013():
     temp_i=0
     average=[]
-    for rows in pd.read_csv('C:/Users/Harish/Documents/Projects/Air Quality Index/Data/AQI/aqi2013.csv',chunksize=24):
+    for rows in pd.read_csv('Real_Combine.csv'):
         add_var=0
         avg=0.0
         data=[]
